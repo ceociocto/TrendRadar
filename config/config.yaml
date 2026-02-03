@@ -337,7 +337,7 @@ ai:
   #   - zhipu/glm-4-plus (智谱AI)
   # 完整列表: https://docs.litellm.ai/docs/providers
   
-  model: "GLM-4.7"        # 智谱AI GLM-4.7 (Flash版本，速度快)
+  model: "zai/glm-4-flash"        # 智谱AI GLM-4.7 (Flash版本，速度快)
 
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
