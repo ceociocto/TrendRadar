@@ -32,10 +32,6 @@ app:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
-    - id: "toutiao"
-      name: "今日头条"
-    - id: "baidu"
-      name: "百度热搜"
     - id: "wallstreetcn-hot"
       name: "华尔街见闻"
     - id: "thepaper"
@@ -341,7 +337,7 @@ ai:
   #   - zhipu/glm-4-plus (智谱AI)
   # 完整列表: https://docs.litellm.ai/docs/providers
   
-  model: "zhipu/glm-4-flash"        # 智谱AI GLM-4.7 (Flash版本，速度快)
+  model: "GLM-4.7"        # 智谱AI GLM-4.7 (Flash版本，速度快)
 
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
