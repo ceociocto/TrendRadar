@@ -175,7 +175,7 @@ display:
   # 控制各区域是否启用（配合 region_order 使用）
   regions:
     hotlist: true                     # 热榜区域（关键词匹配的热点新闻）
-    new_items: true                   # 新增热点区域（含热榜新增 + RSS 新增）
+    new_items: false                  # 新增热点区域（已关闭，只保留精准关键词匹配）
                                       # 注：热点词汇统计中的新增标记🆕不受此配置影响
 
     rss: true                         # RSS 订阅区域
@@ -341,7 +341,7 @@ ai:
   #   - zhipu/glm-4-plus (智谱AI)
   # 完整列表: https://docs.litellm.ai/docs/providers
   
-  model: "zhipu/glm-4-plus"         # 智谱AI GLM-4.7
+  model: "zhipu/glm-4-flash"        # 智谱AI GLM-4.7 (Flash版本，速度快)
 
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
